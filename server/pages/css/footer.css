@@ -1,0 +1,22 @@
+footer {
+	height: 270px;
+	display: flex;
+	background: url("../css/images/footer-bg.png") center;
+}
+.footer__inner{
+	width: 500px;
+	text-align: center;
+	color: #fff;
+	padding: 40px 0;
+}
+a path {
+	fill:var(--c,#949091);
+	stroke:none;
+	pointer-events:all;
+	transition:0.1s;
+  }
+  
+  .fb__icon:hover { --c:#3c589a; } 
+  .t__icon:hover  { --c:#68acd2; }  
+  .g__icon:hover { --c:#d54133; } 
+  .yt__icon:hover { --c:#e72c2e; } 
